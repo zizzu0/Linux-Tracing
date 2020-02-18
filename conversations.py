@@ -4,7 +4,6 @@
 #           via BPF Compiler Collection (BCC) https://github.com/iovisor/bcc
 #           and associate them with dns responses.
 #
-# OR: Get who is talking to the internet before that communication is closed :)
 #
 # ONLY FOR IPV4 need to add code for ipv6
 # Messages via a kprobe on sock_sendmsg (user space)
